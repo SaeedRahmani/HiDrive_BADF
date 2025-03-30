@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DriverModel.cpp" />
+    <ClCompile Include="ResetCarData.cpp" />
+    <ClCompile Include="BaselineADF.cpp">
+      <Filter>DMFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="CarFollowing.cpp">
+      <Filter>DMFunctions\CarFollowing</Filter>
+    </ClCompile>
+    <ClCompile Include="LaneChangeDecision.cpp">
+      <Filter>DMFunctions\LaneChange</Filter>
+    </ClCompile>
+    <ClCompile Include="MandatoryLaneChange.cpp">
+      <Filter>DMFunctions\LaneChange</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscretionaryLaneChange.cpp">
+      <Filter>DMFunctions\LaneChange</Filter>
+    </ClCompile>
+    <ClCompile Include="ApproachingSpeedLimit.cpp">
+      <Filter>DMFunctions\ApproachingSpeedLimit</Filter>
+    </ClCompile>
+    <ClCompile Include="ApproachIntersection.cpp">
+      <Filter>DMFunctions\ApproachingIntersection</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalizedIntersection.cpp">
+      <Filter>DMFunctions\ApproachingIntersection</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsignalizedIntersection.cpp">
+      <Filter>DMFunctions\ApproachingIntersection</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthorityTransition.cpp">
+      <Filter>DMFunctions\AuthorityTransition</Filter>
+    </ClCompile>
+    <ClCompile Include="LateralControl.cpp">
+      <Filter>DMFunctions\LaneChange</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayDataBase.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="ActiveGapSearch.cpp">
+      <Filter>DMFunctions\ActiveGapSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenarioBasedParameters.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CarData.h" />
+    <ClInclude Include="DMFunctions.h" />
+    <ClInclude Include="DriverModel.h" />
+    <ClInclude Include="ResetCarData.h" />
+    <ClInclude Include="SimData.h" />
+    <ClInclude Include="BaselineADF.h">
+      <Filter>DMFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibration.h" />
+    <ClInclude Include="CarFollowing.h">
+      <Filter>DMFunctions\CarFollowing</Filter>
+    </ClInclude>
+    <ClInclude Include="LaneChangeDecision.h">
+      <Filter>DMFunctions\LaneChange</Filter>
+    </ClInclude>
+    <ClInclude Include="MandatoryLaneChange.h">
+      <Filter>DMFunctions\LaneChange</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscretionaryLaneChange.h">
+      <Filter>DMFunctions\LaneChange</Filter>
+    </ClInclude>
+    <ClInclude Include="ApproachingSpeedLimit.h">
+      <Filter>DMFunctions\ApproachingSpeedLimit</Filter>
+    </ClInclude>
+    <ClInclude Include="ApproachIntersection.h">
+      <Filter>DMFunctions\ApproachingIntersection</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalizedIntersection.h">
+      <Filter>DMFunctions\ApproachingIntersection</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsignalizedIntersection.h">
+      <Filter>DMFunctions\ApproachingIntersection</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthorityTransition.h">
+      <Filter>DMFunctions\AuthorityTransition</Filter>
+    </ClInclude>
+    <ClInclude Include="LateralControl.h">
+      <Filter>DMFunctions\LaneChange</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayDataBase.h" />
+    <ClInclude Include="ActiveGapSearch.h">
+      <Filter>DMFunctions\ActiveGapSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenarioBasedParameters.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DMFunctions">
+      <UniqueIdentifier>{4a4d2a5e-0097-429c-9188-564b253bbcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DMFunctions\CarFollowing">
+      <UniqueIdentifier>{6f25e937-09f4-4afd-b14d-8c0ca50d3314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DMFunctions\LaneChange">
+      <UniqueIdentifier>{05332333-7309-42d8-9806-783e58d92de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DMFunctions\ApproachingSpeedLimit">
+      <UniqueIdentifier>{652bde4f-fcdd-4171-b3e1-cb65a0220d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DMFunctions\ApproachingIntersection">
+      <UniqueIdentifier>{b19bb1e4-a56c-4dea-a548-c3b6e4fb3281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DMFunctions\AuthorityTransition">
+      <UniqueIdentifier>{d5f7c8f3-c156-45c3-971c-44a4b81792f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DMFunctions\ActiveGapSearch">
+      <UniqueIdentifier>{10188ee8-2ff4-480c-a94b-a194e342f593}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Interface_Description.pdf" />
+  </ItemGroup>
+</Project>
